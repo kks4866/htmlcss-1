@@ -48,6 +48,10 @@ nav{
     color: white;
     padding: 0 30px;
 }
+#topMenu li a:hover{
+    color: #0000ff;
+
+}
 
 /* 본문 영역 */
 .contents{
@@ -91,10 +95,13 @@ footer{
     margin-top: 20px;
     margin-left: 60px;
 }
-#bottomMenu li{
+#bottomMenu ul li{
     display: inline;
     padding: 5px 20px;
     border-right: 1px solid #ddd;
+}
+#bottomMenu ul li:nth-last-child(1){
+    border: none;
 }
 #bottomMenu li a{
     color: black;
